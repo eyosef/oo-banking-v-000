@@ -14,6 +14,7 @@ class Transfer
 
   def valid?
     self.sender.balance >= 1 && self.receiver.balance >=1 #can check that both accounts are valid
+    binding.pry
   end
 
   def execute_transaction
