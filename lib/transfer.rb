@@ -1,7 +1,7 @@
 require 'pry'
 class Transfer
 
-  attr_accessor :transfer, :sender, :receiver, :status, :amount
+  attr_accessor :transfer, :sender, :receiver, :status, :amount, :valid?
 
   attr_reader
 
