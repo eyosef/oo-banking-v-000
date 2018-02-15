@@ -13,7 +13,7 @@ class Transfer
   end
 
   def valid?
-    self.sender.balance >= 1 && self.receiver.balance >=1 #can check that both accoutns are valid
+    self.sender.balance >= 1 && self.receiver.balance >=1 #can check that both accounts are valid
   end
 
   def execute_transaction
